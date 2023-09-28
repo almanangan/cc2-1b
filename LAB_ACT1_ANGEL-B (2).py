@@ -18,8 +18,8 @@ print("Length in Kilometers (km):", userMilesToKilometers )
 
 print("===========================================================")
 
-fahrenheit = float(input("Temperature in Fahrenheit(°F):"))
 ONE_FAHRENHEIT_TO_CELSIUS = (fahrenheit - 32) * 5 / 9 
+fahrenheit = float(input("Temperature in Fahrenheit(°F):"))
 
 userFahrenheitToCelsius = fahrenheit * ONE_FAHRENHEIT_TO_CELSIUS
 
